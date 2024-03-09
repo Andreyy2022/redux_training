@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Button, FormControl, InputGroup } from "react-bootstrap";
 import * as actions from '../store/actions';
-import { UseDispatch, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 
 const AddNewTask = () => {
     const [taskTitle, setTaskTitle] = useState('');
