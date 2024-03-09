@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Button, FormControl, InputGroup } from "react-bootstrap";
-import * as action from '../store/action';
+import * as actions from '../store/actions';
 import { UseDispatch, useDispatch } from "react-redux";
 
 const AddNewTask = () => {

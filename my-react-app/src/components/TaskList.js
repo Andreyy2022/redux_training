@@ -2,9 +2,9 @@ import React from "react";
 import {ListGroup} from 'react-bootstrap';
 import Task from "./Task";
 
-const TaskList = ({task}) => {
+const TaskList = ({tasks}) => {
 
-    if (task.length)
+    if (tasks.length)
         return (
             <ListGroup>
                 {
